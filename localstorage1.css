@@ -1,0 +1,129 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #333333;
+    text-align: center;
+    font-family: cursive;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+    outline: none;
+    border-color: #4caf50;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr,
+th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+#searchInput {
+    width: 61%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#searchButton {
+    background-color: #2196f3;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#searchButton:hover {
+    background-color: turquoise;
+}
+
+#sortButton {
+    border-color: plum;
+    color: #540624;
+    
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#detailsTable {
+    margin-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+tr {
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}

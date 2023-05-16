@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Details</title>
+    <link rel="stylesheet" href="localstorage1.css">
+ 
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Employee Details</h1><br />
+        <form id="myForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <h2>Stored Details</h2><br/>
+        <div>
+            <input type="text" id="searchInput"  onkeypress="search()" placeholder="Search...">
+            <button id="searchButton" onclick="search()">Search</button>
+            <button id="sortButton"  onclick="sortByName()">Sort</button>
+
+        </div><br/><br/>
+        <table id="detailsTable">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Action</th>
+            </tr>
+        </table>
+    </div>
+</body>
+<body>
+    <script src="localstorage1.js"></script>
+
+</body>
+
+</html>
